@@ -59,7 +59,7 @@
             </div>
         </form>
         <hr>
-        <p>© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+        
     </div>
 </div>
 </body>

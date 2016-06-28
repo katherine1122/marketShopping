@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Shanghai',
 
     /*
     |--------------------------------------------------------------------------
@@ -107,8 +107,8 @@ return [
     | Available Settings: "single", "daily", "syslog", "errorlog"
     |
     */
-
-    'log' => env('APP_LOG', 'single'),
+//日志
+    'log' => 'daily',
 
     /*
     |--------------------------------------------------------------------------
@@ -147,6 +147,9 @@ return [
         Overtrue\LaravelLang\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        //日志管理
+        Arcanedev\LogViewer\LogViewerServiceProvider::class,
+
 
         /*
          * Application Service Providers...
